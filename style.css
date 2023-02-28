@@ -1,0 +1,110 @@
+@font-face {
+    font-family: title;
+    src: url('./assets/fonts/MyHomework.otf');
+}
+
+body {
+    background-color:rgba(0, 179, 170, 0.836);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.5;
+}
+
+.container {
+    width: 450px;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+h1 {
+    color: rgb(42, 109, 92);
+    text-align: center;
+    font-family: title;
+    font-size: 40px;
+}
+
+.search {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.search form {
+    display: flex;
+}
+
+.search input {
+    padding: 15px 10px;
+    width: 420px;
+    outline: none;
+    margin-right: 1px;
+    font-size: 16px;
+}
+
+.add-btn {
+    width: 60px;
+    background-color: rgba(0, 153, 140, 0.911);
+    border: none;
+    border-radius: 1px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.add-btn:hover {
+    transform: scale(1.1, 1);
+    background-color: rgba(0, 133, 122, 0.911);
+}
+
+div ul {
+    color: darkslategray;
+    font-weight: 600;
+    padding-inline-start: 0;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+div li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+}
+
+div li p {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.del-btn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    color: white;
+    width: 40px;
+    background-color: rgba(228, 0, 30, 0.829);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.del-btn:hover {
+    transform: scale(1.1, 1);
+    background-color: rgba(0, 133, 122, 0.911);
+}
+
+.empty p{
+    color: rgba(54, 54, 54, 0.719);
+    margin: 0;
+    font-weight: 600;
+}
+
